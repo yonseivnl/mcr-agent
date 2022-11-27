@@ -7,12 +7,11 @@
 <br>
 <a href="https://aaai.org/Conferences/AAAI-23/"> AAAI 2023 </a>
 
-<b> MOCA </b> (<b>M</b>odular <b>O</b>bject-<b>C</b>entric <b>A</b>pproach) is a modular architecture that decouples a task into visual perception and action policy.
-The action policy module (APM) is responsible for sequential action prediction, whereas the interactive perception module (IPM) generates pixel-wise interaction mask for the objects of interest for manipulation.
-MOCA addresses long-horizon instruction following tasks based on egocentric RGB observations and natural language instructions on the <a href="https://github.com/askforalfred/alfred">ALFRED</a> benchmark.
+<b> MCR-Agent </b> (<b>M</b>ulti-level <b>C</b>ompositional <b>R</b>easoning Agent) is (short description).
+MCR-Agent addresses long-horizon instruction following tasks based on egocentric RGB observations and natural language instructions on the <a href="https://github.com/askforalfred/alfred">ALFRED</a> benchmark.
 <br>
 
-<img src="" alt="MCR-Agent">
+<img src="mcr-agent.png" alt="MCR-Agent">
 
 
 ## Environment
@@ -24,8 +23,8 @@ $ export ALFRED_ROOT=$(pwd)/mcr-agent
 
 ### Install requirements (to be revised)
 ```
-$ virtualenv -p $(which python3) --system-site-packages moca_env
-$ source moca_env/bin/activate
+$ virtualenv -p $(which python3) --system-site-packages mcr-agent_env
+$ source mcr-agent_env/bin/activate
 
 $ cd $ALFRED_ROOT
 $ pip install --upgrade pip
