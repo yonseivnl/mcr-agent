@@ -140,10 +140,10 @@ MIT License
 
 ## Citation (to be revised)
 ```
-@article{singh2020moca,
-  title={Factorizing Perception and Policy for Interactive Instruction Following},
-  author={Singh, Kunal Pratap and Bhambri, Suvaansh and Kim, Byeonghwi and Mottaghi, Roozbeh and Choi, Jonghyun},
-  journal={arXiv preprint arXiv:2012.03208},
-  year={2020}
+@article{bhambri2023multi,
+  title={Multi-level Compositional Reasoning for Interactive Instruction Following},
+  author={Bhambri, Suvaansh and Kim, Byeonghwi and Choi, Jonghyun},
+  journal={arXiv preprint arXiv:},
+  year={2022}
 }
 ```
