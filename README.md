@@ -127,7 +127,7 @@ This will be updated soon.
 **Note**: "Reproduced" denotes the expected success rates of the pretrained model that we provide.
 -->
 
-## Hardware 
+## Hardware (to be revised)
 Trained and Tested on:
 - **GPU** - GTX 2080 Ti (11GB)
 - **CPU** - Intel(R) Core(TM) i9-9900K CPU @ 3.60GHz
