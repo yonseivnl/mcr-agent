@@ -7,7 +7,7 @@
 <br>
 <a href="https://aaai.org/Conferences/AAAI-23/"> AAAI 2023 </a>
 
-<b> MCR-Agent </b> (<b>M</b>ulti-level <b>C</b>ompositional <b>R</b>easoning Agent) is a multi-level compositional approach that learns to navigate and manipulate objects in a divide-and-conquer manner for the diverse nature of the entailing task.
+<b> MCR-Agent </b> (<b>M</b>ulti-Level <b>C</b>ompositional <b>R</b>easoning Agent) is a multi-level compositional approach that learns to navigate and manipulate objects in a divide-and-conquer manner for the diverse nature of the entailing task.
 MCR-Agent addresses long-horizon instruction following tasks based on egocentric RGB observations and natural language instructions on the <a href="https://github.com/askforalfred/alfred">ALFRED</a> benchmark.
 <br>
 
