@@ -13,4 +13,18 @@ MCR-Agent addresses long-horizon instruction following tasks based on egocentric
 
 <img src="mcr-agent.png" alt="MCR-Agent">
 
-The code will be available soon.
+## Code
+
+### Training
+To train MCR-Agent, run `train.sh` with hyper-parameters below. <br>
+
+**Note**: As mentioned in the repository of <a href="https://github.com/askforalfred/alfred/tree/master/models">ALFRED</a>, run with `--preprocess` only once for preprocessed json files. <br>
+
+
+### Evaluation
+#### Task Evaluation
+First we need to evaluate the individual modules using 'test_unseen.sh' in each module folder. <br>
+
+To evaluate MCR-Agent on ALFRED validation set, input the best model paths in `test_unseen.sh` for unseen fold and `test_seen.sh` for seen fold <br>
+
+**Note**: All hyperparameters used for the experiments in the paper are set as default. <br>
