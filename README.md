@@ -28,3 +28,6 @@ First we need to evaluate the individual modules using 'test_unseen.sh' in each 
 To evaluate MCR-Agent on ALFRED validation set, input the best model paths in `test_unseen.sh` for unseen fold and `test_seen.sh` for seen fold <br>
 
 **Note**: All hyperparameters used for the experiments in the paper are set as default. <br>
+
+## Acknoledgment
+This work is partly supported by the NRF grant (No.2022R1A2C4002300), IITP grants (No.2020-0-01361-003, AI Graduate School Program (Yonsei University) 5%, No.2021-0-02068, AI Innovation Hub 5%, 2022-0-00077, 15%, 2022-0-00113, 15%, 2022-0-00959, 15%, 2022-0-00871, 20%, 2022-0-00951, 20%) funded by the Korea government (MSIT).
