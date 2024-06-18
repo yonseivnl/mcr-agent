@@ -13,9 +13,17 @@ MCR-Agent addresses long-horizon instruction following tasks based on egocentric
 
 <img src="mcr-agent.png" alt="MCR-Agent">
 
+## Download
+Download the ResNet-18 features and annotation files from <a href="https://huggingface.co/datasets/byeonghwikim/abp_dataset">the Hugging Face repo</a>.
+```
+git clone https://huggingface.co/byeonghwikim/abp_dataset data/json_feat_2.1.0
+```
+
+
 ## Code
 
 ### Training
+
 To train MCR-Agent, run `train.sh` with hyper-parameters below. <br>
 
 **Note**: As mentioned in the repository of <a href="https://github.com/askforalfred/alfred/tree/master/models">ALFRED</a>, run with `--preprocess` only once for preprocessed json files. <br>
