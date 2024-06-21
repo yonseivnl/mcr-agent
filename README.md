@@ -16,7 +16,7 @@ MCR-Agent addresses long-horizon instruction following tasks based on egocentric
 ## Download
 Download the ResNet-18 features and annotation files from <a href="https://huggingface.co/datasets/byeonghwikim/abp_dataset">the Hugging Face repo</a>.
 ```
-git clone https://huggingface.co/byeonghwikim/abp_dataset data/json_feat_2.1.0
+git clone https://huggingface.co/datasets/byeonghwikim/abp_dataset data/json_feat_2.1.0
 ```
 
 
