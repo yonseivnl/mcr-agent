@@ -14,10 +14,14 @@ MCR-Agent addresses long-horizon instruction following tasks based on egocentric
 <img src="mcr-agent.png" alt="MCR-Agent">
 
 ## Download
+### Pre-extracted features
 Download the ResNet-18 features and annotation files from <a href="https://huggingface.co/datasets/byeonghwikim/abp_dataset">the Hugging Face repo</a>.
 ```
 git clone https://huggingface.co/datasets/byeonghwikim/abp_dataset data/json_feat_2.1.0
 ```
+### Raw RGB images, depth masks, and segmentation labels (Optional)
+We provide zip files that contain raw RGB images (and depth & segmentation masks) in <a href="https://huggingface.co/datasets/byeonghwikim/abp_images">the Hugging Face repository</a>, which takes about 250GB in total.
+With these images, you can extract features yourself with this <a href="https://github.com/snumprlab/abp/blob/main/models/utils/extract_resnet.py">code</a>.
 
 
 ## Code
